@@ -7,6 +7,7 @@
 <title>Reetesh Kumar Sinha — Developer</title>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
 :root{
   --bg:#f4f4f1;
   --text:#171717;
@@ -31,7 +32,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}
 body{
   background:var(--bg);
   color:var(--text);
-  font-family:"Courier New",ui-monospace,SFMono-Regular,Menlo,monospace;
+  font-family:"Share Tech Mono","Courier New",ui-monospace,SFMono-Regular,Menlo,monospace;
   transition:background .35s ease,color .35s ease;
 }
 a{color:inherit;text-decoration:none}
@@ -91,6 +92,7 @@ nav{display:flex;align-items:center;gap:30px}
 nav a{
   position:relative;
   color:var(--muted);
+  font-family:"Share Tech Mono","Courier New",ui-monospace,SFMono-Regular,Menlo,monospace;
   font-size:11px;
   transition:color .2s;
 }
@@ -177,7 +179,7 @@ html[data-theme="light"] .switch-knob{transform:translateX(18px)}
 .hero-main{
   position:relative;
   z-index:2;
-  padding:118px 8vw 0 9vw;
+  padding:108px 8vw 0 9vw;
   display:flex;
   flex-direction:column;
   justify-content:space-between;
@@ -189,25 +191,30 @@ html[data-theme="light"] .switch-knob{transform:translateX(18px)}
   max-width:760px;
 }
 .hero-name{
-  font-size:clamp(30px,4.3vw,58px);
+  font-family:"Share Tech Mono","Courier New",ui-monospace,SFMono-Regular,Menlo,monospace;
+  font-size:clamp(26px,3.5vw,48px);
   font-weight:500;
-  letter-spacing:-2.8px;
+  letter-spacing:-2px;
   line-height:1.05;
   color:var(--text);
 }
 .hero-role{
+  font-family:"Share Tech Mono","Courier New",ui-monospace,SFMono-Regular,Menlo,monospace;
   margin-top:14px;
-  font-size:clamp(17px,2.1vw,28px);
-  line-height:1.35;
-  color:var(--muted);
-  letter-spacing:-1px;
+  font-size:clamp(15px,1.6vw,22px);
+  line-height:1.45;
+  color:var(--text);
+  letter-spacing:-.5px;
+  font-weight:400;
 }
 .hero-description{
   margin-top:22px;
-  max-width:570px;
+  max-width:590px;
   color:var(--muted);
-  font-size:11px;
-  line-height:2;
+  font-size:12px;
+  line-height:1.75;
+  letter-spacing:.1px;
+  font-family:"Share Tech Mono","Courier New",ui-monospace,SFMono-Regular,Menlo,monospace;
 }
 .hero-actions{
   margin-top:26px;
@@ -217,7 +224,7 @@ html[data-theme="light"] .switch-knob{transform:translateX(18px)}
 }
 .hero-actions a{
   color:var(--text);
-  font-size:10px;
+  font-size:9px;
   border-bottom:1px solid var(--line);
   padding-bottom:5px;
   transition:color .2s,border-color .2s,transform .2s;
@@ -250,7 +257,8 @@ html[data-theme="light"] .switch-knob{transform:translateX(18px)}
   margin-bottom:7vh;
   color:var(--muted);
   font-size:10px;
-  line-height:2;
+  line-height:1.8;
+  font-family:"Share Tech Mono","Courier New",ui-monospace,SFMono-Regular,Menlo,monospace;
 }
 .hero-meta span{color:var(--text)}
 .scroll-cue{
@@ -412,7 +420,7 @@ footer{
   nav a:nth-child(2),nav a:nth-child(3){display:none}
   .theme-label{display:none}
   .hero{padding-top:20px !important}
-  .hero-main{padding:92px 0 0 50px}
+  .hero-main{padding:82px 0 0 50px}
   .hero-title{font-size:28px;letter-spacing:-1px}
   section{margin-left:35px;padding:75px 28px}
   footer{margin-left:35px;padding:18px 28px}
@@ -521,7 +529,7 @@ html[data-theme="light"] .mouse-light{
     <a href="#projects">projects.</a>
     <a href="#research">research.</a>
     <a href="#about">about me.</a>
-    <a href="Reetesh_Resume.pdf" target="_blank" rel="noopener">resume.</a>
+    <a href="Reetesh_Kumar_Sinha_Resume.pdf" target="_blank" rel="noopener">resume.</a>
 
     <div class="theme-switch">
       <span class="theme-label" id="themeText">dark</span>
